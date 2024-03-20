@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="This is a Music Website">
+<meta name="description" content="html5, Music, Jazz, RnB, Pop, css">
+<meta http-equiv="X-UA-Compatible=" content="ie=edge">
+<title> Music Spotlight </title>
+<link rel="styleSheet" href="styles/stylesheet.css">
+<style>body{background-color: beige; Color:black;}</style>
+</head>
+<header>
+    <h1 class="title"> Contact us! </h1>
+</header>
+<nav>
+    <ul>
+          
+        <li><a class="pop" style="color: black;font-family: cursive;" href="index.html">Home</a></li>
+        <li><a class="pop" style="color: black;font-family: cursive;" href="pop.html">Pop</a></li>
+        <li><a class="RnB" style="color: black;font-family: cursive;" href="RnB.html">RnB</a></li>
+        <li><a class="Jazz" style="color: black;font-family: cursive;" href="jazz.html">Jazz</a></li>
+        <li><a class="Index" style="color: black;font-family: cursive;" href="contact.html">contact Us </a></li>
+    </ul>
+    </nav>
+<body>
+    <section class="contact">
+    <label for="first_name">First name: <span class="required">*</span></label>
+<input type="text" name="first_name" id="first_name" autofocus required><br> <label for="last_name">Last name: <span class="required">*</span></label>
+<input type="text" name="last_name" id="last_name" required><br> <label for="email">Email:<span class="required">*</span></label>
+<input type="email" name="email" id="email" required placeholder="johndoe@example.com"> <br>
+    <br>
+<label for="gender">Gender:</label>
+<input type="radio" id="gender" name="gender" value="male"> Male
+<input type="radio" id="gender" name="gender" value="female"> Female
+<input type="radio" id="gender" name="gender" value="other" checked> Other <br>
+ 
+
+<label for="message">Where did you hear about us:</label>
+<fieldset style="max-width: 500px; background-color: white;">
+  <input type="checkbox" id="internet" name="internet" value="internet" checked> Internet <br>
+  <input type="checkbox" class="marginl" id="hearr" name="paper" value="paper"> Newspaper <br>
+  <input type="checkbox" class="marginl" id="hear" name="friend" value="friend"> Friend<br>
+  <input type="checkbox" class="marginl" id="hear" name="add" value="add"> Others <br>
+</fieldset>
+<br>
+<!-- Example free format text area control -->
+<label for="message">Query:</label>
+<textarea cols="40" rows="6" id="message" name="message" placeholder="Your message must be less than 200 characters" data-maxlength=""></textarea>
+<input style="font-size: larger;" type="submit" name="submit" id="button" value="Submit">
+<input style="font-size: larger;" h type="reset" name="reset" id="reset">
+</section>
+<footer>
+    <p>&copy;Copyright &#64;Farm Tour 2024 </p>
+</footer>
+</body>
